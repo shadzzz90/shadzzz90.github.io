@@ -58,7 +58,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Segoe UI";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -70,7 +70,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Segoe UI";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -371,7 +371,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Segoe UI";
   font-weight: 500;
   line-height: 1.2;
   color: #141414;
@@ -587,7 +587,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
@@ -5515,7 +5515,7 @@ a.close.disabled {
 
 @media (min-width: 1200px) {
   .modal-xl {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
@@ -5524,7 +5524,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5636,7 +5636,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Segoe UI";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9412,10 +9412,11 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  max-width: 1140px;
+  max-width: 1500px;
 }
 
 .wrapper .sidebar {
+  margin-bottom: 30px;
   position: relative;
   width: 100%;
   float: left;
@@ -9448,14 +9449,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 768px) {
   .wrapper .content {
-    padding: 30px 0px 30px 30px;
+    padding: 0px 0px 30px 30px;
   }
   .wrapper .content::before,
   .wrapper .content::after {
     position: fixed;
     content: "";
     width: 100%;
-    height: 30px;
     background: #F2F2F2;
     z-index: 9;
   }
@@ -9468,10 +9468,12 @@ a.text-dark:hover, a.text-dark:focus {
   .wrapper .sidebar {
     position: fixed;
     width: 350px;
-    height: 100%;
+    margin-top: 30px;
+	margin-bottom: 30px;
     margin-left: -300px;
+	height: 100%;
     float: left;
-    overflow: auto;
+    overflow: none;
     scrollbar-width: thin;
     scrollbar-color: gray;
     z-index: 9;
@@ -9522,7 +9524,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   .wrapper .sidebar {
-    margin: 0;
+	margin: 0;
+	margin-bottom: 30px !important;    
   }
   .wrapper .content {
     width: calc(100% - 350px);
@@ -10057,3 +10060,65 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 100%; padding-ri
   display: none;
 }
   
+.wrapper {
+	width: 100% !important;
+	padding-top: 80px !important;
+}	
+
+.header {
+	height: 50px;
+	margin: 0 auto;
+    width: 100%;
+    z-index:1000;
+	position: fixed;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+.navbar-right {
+  float: right!important;
+  list-style: none;
+  display: block;
+}
+
+.nav > li {
+  position: relative;
+  display: block;
+}
+
+.smooth-menu {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li {
+    float: left;
+  }
+}
+
+
+.tab-link {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: "Segoe UI";
+  /*input has OS specific font-family*/
+  color: white;
+  cursor: pointer;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tab-link:hover {
+  color: #808183;
+}
+
+/* Create an active/current tablink class */
+.tab-link.active {
+	
+}
