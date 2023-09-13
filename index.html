@@ -30,7 +30,7 @@
 			<div class="header bg-purple-75">
 				<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 				
-                    <li class=" smooth-menu"><a class="tab-link active" onclick="openTab(event, 'about')">About Me</a></li>
+                    <li class="smooth-menu"><a class="tab-link active" onclick="openTab(event, 'about')">About Me</a></li>
                     <li class="smooth-menu"><a class="tab-link" onclick="openTab(event, 'skills')">Skills</a></li>
                     <li class="smooth-menu"><a class="tab-link" onclick="openTab(event, 'experience')">Experience</a></li>                        
                     <li class="smooth-menu"><a class="tab-link" onclick="openTab(event, 'education')">Education</a></li>
@@ -63,7 +63,7 @@
 				<div class="content">
 					<div class="content-layout">					
 						<!-- About Start -->
-						<div class="container bg-white py-5">
+						<div class="container bg-white py-5" id="about">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">About Me</h2>
@@ -85,7 +85,7 @@
 						</div>
 						<!-- About End -->
 						<!-- Research Blog Start -->	
-						<div class="container bg-white py-5">
+						<!-- <div class="container bg-white py-5">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Research Blog</h2>
@@ -93,10 +93,10 @@
 								<div class="col-12">
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- Research Blog End -->
 						<!-- Projects Start -->
-						<div class="container bg-white py-5">
+						<!-- <div class="container bg-white py-5">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Projects</h2>
@@ -104,7 +104,7 @@
 								<div class="col-12">
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- Projects End -->	
 						<!-- Research Experience Start -->
 						<div class="container bg-white py-5">
@@ -113,10 +113,180 @@
 									<h2 class="title position-relative pb-2 mb-4">Research Experience</h2>
 								</div>
 								<div class="col-12">
+									<div>
+										<div class="exp">
+											<span class="exp-header-title"> Pacific Northwest National Laboratory </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Richland, WA</div>
+										</div>
+										<div class="exp">
+											<span> Ph. D. Intern; Reactor Materials and Mechanical Design </span>
+											<div class="divider"></div>
+											<div>July 2022 – Present </div>
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title"> Project: </span><span class="exp-header"> “Development of Efficient Process for Manufacturing of Thermoplastic Composites with Tailored Properties”</span> funded by <span class="exp-header">HPC4EnergyInnovation </span> initiative of <span class="exp-header"> Department of Energy </span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+													  <li>Implemented and improved the CAE chain, incorporating thermoforming and crash simulations to design composites with tailored properties.</li>
+													  <li>Developed Python scripts to automate complex and time-consuming simulation processes, streamlining analysis, and generating large amounts of simulation data to aid the development of a machine learning-based reduced order model. </li>
+													  <li>Successfully executed over 400 simulations on HPC clusters, utilizing Bash and SLURM scripting, with each simulation averaging approximately 10 hours.</li>
+													  <li>Authored a research article, demonstrating effective communication and collaboration with team members to ensure a cohesive publication.</li>
+													  <li>Acted as a proactive team player, fostering an efficient workflow, ensuring project completion, and meeting project milestones</li>
+													  <li>Tool used: ESI-PAMFORM, ESI-VPS, Python</li>												  
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title"> Project: </span><span class="exp-header">“Lightweight Metals Core Program”</span> funded by <span class="exp-header">Department of Energy</span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+													  <li>Currently involved in the development of a deep learning model for residual stress predictions for Friction Stir Processing (FSP),  a novel solid-phase processing technique</li>
+													  <li>Tool used: ABAQUS, TensorFlow, Python</li>													  
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="exp">
+											<span class="exp-header-title"> University of North Carolina at Charlotte </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Charlotte, NC</div>
+										</div>
+										<div class="exp">
+											<span>Ph. D. Researcher; Mechanical Engineering and Engineering Science</span>
+											<div class="divider"></div>
+											<div>August 2018 – Present </div>
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title"> Dissertation: </span><span class="exp-header">Machine Learning-Based Approaches for Accelerating Design Space Exploration of Electric Vehicle Battery Enclosures and Solving Inverse Problems in Engineering Design</span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Developed a probabilistic ML-based Reduced Order Model (ROM), using Gaussian Processes, to accelerate design and optimization of a composite EV battery enclosure.</li>
+														<li>Achieved significant time savings by using ROM, predicting output labels in few seconds, which may take around 10 hrs. (average case) using traditional techniques.</li>
+														<li>Demonstrated the ROM's capability, providing predictions including measure of uncertainty, with  R2 > 0.97 on unseen datasets.</li>
+														<li>Conceptualized and developed a deep learning framework, which integrates physics information, to tackle inverse source problems in engineering design efficiently predicting the source from known system responses.</li>
+														<li>Successfully implemented the proposed model to infer variety of forcing functions, both smooth and discontinuous, in linear and non-linear systems (Implementation: View on GitHub)</li>
+														<li>Authored the paper "Recovering the Forcing Function in Systems with One Degree of Freedom Using ANN and Physics Information", highlighting promising results.</li>
+													</ul>
+												</div>
+											</div>
+										</div>										
+									</div>
+									<div>
+										<div class="exp">
+											<span class="exp-header-title"> University of Mumbai  </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Mumbai, India</div>
+										</div>
+										<div class="exp">
+											<span>Master’s Student;  Fr. Conceicao Rodrigues College of Engineering	</span>
+											<div class="divider"></div>
+											<div>August 2013 – May 2016</div>
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title"> Thesis: </span><span class="exp-header">Resource-Constrained Project Scheduling (RCPS) Using Metaheuristic Optimization Techniques</span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Solved Single-Mode Resource-Constrained Project Scheduling Problem (S-RCPSP) — a NP-Hard problem.</li>
+														<li>Wrote a C++ code, with over 1,000 lines, implementing Genetic Algorithms to optimize the problem. (Implementation: <a href="https://github.com/shadzzz90/RCPSP-Genetic-Algorithm">View on GitHub</a>)</li>
+														<li>Successfully solved data sets: j30, j60, j90, j120, sourced from <a href="http://www.om-db.wi.tum.de/psplib/data.html">PSPLIB database.</a></li>														
+													</ul>
+												</div>
+											</div>
+										</div>										
+									</div>
 								</div>
 							</div>
 						</div>
 						<!-- Research Experience End -->	
+						<!-- Other Projects Start -->	
+						<div class="container bg-white py-5">
+							<div class="row px-3">
+								<div class="col-12">
+									<h2 class="title position-relative pb-2 mb-4">Other Projects</h2>
+								</div>
+								<div class="col-12">
+									<div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title">Accelerated Design of Polymer Dielectrics using Machine Learning </span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Implemented ML methodologies in paper titled <span class="exp-header">"Machine Learning Strategy for Accelerated Design of Polymer Dielectrics"</span>  in a hands-on mini project. </li>
+														<li><span class="exp-header">Implementation: </span> <a href="https://github.com/shadzzz90/Machine-Learning-for-Accelerated-Polymer-Design"> View on GitHub </a></li>
+													</ul>
+												</div>
+											</div>
+										</div>										
+									</div>	
+									<div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title">Solving Parabolic PDE using Deep Galerkin Method and Deep XDE </span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Solved heat equation using strategies discussed in “DGM: A deep learning algorithm for solving partial differential equations”</li>
+														<li>Compared the solution by solving using DeepXDE and analytically.</li>
+														<li><span class="exp-header">Implementation: </span> <a href="https://github.com/shadzzz90/Heat-Equation-using-Deep-Galerkin-Method-and-DeepXDE"> View on GitHub </a></li>
+													</ul>
+												</div>
+											</div>
+										</div>										
+									</div>	
+									<div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title">Prediction of Crystal Stability using Deep Learning</span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														Recreated the results of paper titled  <span class="exp-header">"Deep neural networks for accurate predictions of crystal stability"</span> implementing mentioned deep learning strategy to predict crystal stability.
+														<li><span class="exp-header">Implementation: </span> <a href="https://github.com/shadzzz90/Deep-Neural-Network-for-Predcition-of-Crystal-Stability"> View on GitHub </a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-title">
+													<span class="exp-header-title">Stress Prediction using Deep Learning </span>
+												</div>
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Automated ABAQUS using Python to generate large amount of simulation data (rectangular plates with various defects and different boundary conditions)</li>
+														<li>Developed a Convolutional Neural Network (Auto-Encoder and U-Net) using TensorFlow</li>
+														<li><span class="exp-header">Implementation: </span> <a href="https://github.com/shadzzz90/Stress-Prediction-Using-Deep-Learning"> View on GitHub </a></li>
+													</ul>
+												</div>
+											</div>
+										</div>										
+									</div>										
+								</div>
+							</div>
+						</div>
+						<!-- Other Projects End -->	
 						<!-- Teaching Experience Start -->	
 						<div class="container bg-white py-5">
 							<div class="row px-3">
@@ -124,6 +294,55 @@
 									<h2 class="title position-relative pb-2 mb-4">Teaching Experience</h2>
 								</div>
 								<div class="col-12">
+									<div>
+										<div class="exp">
+											<span class="exp-header-title"> University of North Carolina at Charlotte </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Charlotte, NC</div>
+										</div>
+										<div class="exp">
+											<span>Instructor</span>
+											<div class="divider"></div>
+											<div>June 2020 – May 2022</div>
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Instructed a course on Computational Methods using MATLAB, fostering proficiency in mathematical problem-solving and programming for a class of about 30 students each semester.</li>
+														<li>Developed a comprehensive curriculum and course materials aligned with best practices, ensuring a relevant and up-to-date learning experience. </li>
+														<li>Facilitated interactive lectures to promote active learning and knowledge retention.</li>
+														<li>Efficiently managed course materials, assignments, and student inquiries to ensure a smooth learning experience.</li>
+														<li>Inspired students to explore computational methods and their real-world applications through dedication and passion for the subject matter.</li>														
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="exp">
+											<span class="exp-header-title"> University of North Carolina at Charlotte </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Charlotte, NC</div>
+										</div>
+										<div class="exp">
+											<span>Graduate Teaching Assistant; Mechanical Engineering and Engineering Science </span>
+											<div class="divider"></div>
+											<div>July 2019 – May 2020</div>
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li>Assisted instructor in a graduate-level course on Computational Methods with Python, addressing student’s inquiries, and offering support and guidance to students in understanding complex mathematical and programming concepts, and undertaking grading of assignments.</li>
+														<li>Served as a teaching assistant for Thermal and Fluid Lab, and Basic Electrical and Electronics Lab, providing hands-on learning in laboratory settings.</li>
+														<li>Conducted lab demonstrations sessions, ensuring safety protocols were followed, and actively encouraging student engagement and participation.</li>
+														<li>Collaborated with fellow teaching assistants, grading assignments, and evaluating student progress to maintain a high standard.</li>														
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -134,7 +353,43 @@
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Education</h2>
 								</div>
-								<div class="col-12">
+								<div class="col-12">								
+									<div class="exp-description-body">
+										<div class="exp">
+											<span class="exp-header-title"> University of North Carolina at Charlotte </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Charlotte, NC</div>
+										</div>
+										<div class="exp">
+											<span> Ph. D. in  Mechanical Engineering; GPA: 3.92/4.0 </span>
+											<div class="divider"></div>
+											<div>Expected Dec 2023</div>
+										</div>
+									</div>
+									<div class="exp-description-body">
+										<div class="exp">
+											<span class="exp-header-title"> University of Mumbai</span>
+											<div class="divider"></div>
+											<div class="experience-duration">Mumbai, India</div>
+										</div>
+										<div class="exp">
+											<span>Master of Engineering, Mechanical Engineering; GPA: 3.62/4.0 </span>
+											<div class="divider"></div>
+											<div>May 2016</div>
+										</div>
+									</div>
+									<div class="exp-description-body">
+										<div class="exp">
+											<span class="exp-header-title"> University of Mumbai</span>
+											<div class="divider"></div>
+											<div class="experience-duration">Mumbai, India</div>
+										</div>
+										<div class="exp">
+											<span>Bachelor of Engineering, Mechanical Engineering; GPA: 3.25/4.0</span>
+											<div class="divider"></div>
+											<div>May 2011</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -146,6 +401,10 @@
 									<h2 class="title position-relative pb-2 mb-4">Publications</h2>
 								</div>
 								<div class="col-12">
+									<ul class="exp-list">
+										<li><span class="exp-header-title">Shaikh, Shadab Anwar</span>, M. F. N. Taufique, Shank S. Kulkarni, Forrest Hale, Jonathan Oleson, Ram Devanathan, and Ayoub Soulami. <span class="exp-header-title">"Finite Element Analysis and Machine Learning Guided Design of Carbon Fiber Organosheet-based Battery Enclosures for Crashworthiness."</span> arXiv preprint arXiv:2309.00637 (2023). (under-review)</li>
+										<li><span class="exp-header-title">Shaikh, Shadab Anwar</span>, Harish Cherukuri, and Taufiquar Khan. <span class="exp-header-title">"Recovering the Forcing Function in Systems with One Degree of Freedom Using ANN and Physics Information."</span> Algorithms 16, no. 5 (2023): 250.</li>														
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -157,6 +416,13 @@
 									<h2 class="title position-relative pb-2 mb-4">Awards & Achievements</h2>
 								</div>
 								<div class="col-12">
+									<ul class="exp-list">
+										<li>Wayland H Cato Jr. Doctoral Fellowship </li>
+										<li>Graduate School Summer Fellowship (GSSF) </li>
+										<li>Graduate School Teaching Fellowship (GSTF)</li>
+										<li>100/100 in Fluid Mechanics Ph.D. Qualifiers</li>
+										<li>Graduate Member, Phi Kappa Phi</li>										
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -228,19 +494,37 @@
 							</div>
 						</div>
 						<!-- Skills End -->
-						<!-- Community Involvement Start -->	
+						<!-- Volunteer Experience Start -->	
 						<div class="container bg-white py-5">
 							<div class="row px-3">
 								<div class="col-12">
-									<h2 class="title position-relative pb-2 mb-4">Community Involvement</h2>
+									<h2 class="title position-relative pb-2 mb-4">Volunteer Experience</h2>
 								</div>
 								<div class="col-12">
+								<div>
+										<div class="exp">
+											<span class="exp-header-title">River Clean-Up Volunteer</span>											
+										</div>
+										<div>
+											<div class="exp-description">
+												<div class="exp-description-body">
+													<ul class="exp-list">
+														<li><span class="exp-header-title">Organization Name:</span>Charlotte-Mecklenburg Storm Water Services</li>
+														<li><span class="exp-header-title">Charlotte, NC, </span>Month Year – Present (or Month Year to Month Year)</li>
+														<li>Participated in organized clean-up events, contributing to the removal of [X amount] of waste from local rivers.</li>
+														<li>Collaborated with a team of [X number] volunteers to promote environmental awareness in the community.</li>
+														<li>Assisted in coordinating logistics and managing supplies for efficient waste removal.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<!-- Community Involvement End -->	
-		<!-- Testimonial Start -->
-						<div class="container bg-white py-5">
+						<!-- Volunteer Experience End -->	
+						<!-- Testimonial Start -->
+						<!-- <div class="container bg-white py-5">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Testimonial</h2>
@@ -283,7 +567,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<!-- Testimonial End -->
 						<!-- Contact Start -->
 						<div class="container bg-white py-5" id="contact">
@@ -394,6 +678,22 @@
 				btnText.style.border = "none"
 				moreText.style.display = "inline";
 			  }
+			}			
+		</script>
+		<script>
+			function openTab(evt, tabName) {
+			debugger
+			  var i, tabcontent, tablinks;
+			  tabcontent = document.getElementsByClassName("title");
+			  for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			  }
+			  tablinks = document.getElementsByClassName("tab-link");
+			  for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			  }
+			  document.getElementById(tabName).style.display = "block";
+			  evt.currentTarget.className += " active";
 			}
 		</script>
     </body>

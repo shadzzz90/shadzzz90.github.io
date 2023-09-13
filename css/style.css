@@ -10122,3 +10122,44 @@ ul li {
 .tab-link.active {
 	
 }
+
+.divider {
+	margin-left: auto
+}	
+
+.experience-duration {
+}	
+
+.exp {
+	display: flex;
+	color: black;
+}
+
+.exp-header {
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+
+.exp-header-title {
+	font-weight: bold;
+	color: black;	
+}
+
+.exp-description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
+
+.exp-description-body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.exp-list {
+	list-style: disc;
+}
+
+.exp-list > li {
+	list-style: disc;
+}
