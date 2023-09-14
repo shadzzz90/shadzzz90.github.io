@@ -10131,19 +10131,21 @@ ul li {
 }	
 
 .exp {
-	display: flex;
-	color: black;
+	display: flex;	
 }
 
 .exp-header {
 	font-weight: bold;
-	color: black;
 	font-style: italic;
 }
 
 .exp-header-title {
 	font-weight: bold;
 	color: black;	
+}
+
+.exp-header-subtitle {
+	font-weight: bold;
 }
 
 .exp-description {
@@ -10162,4 +10164,13 @@ ul li {
 
 .exp-list > li {
 	list-style: disc;
+}
+
+.scrollu {
+	
+}
+.profile-pic {
+	width: 90%;
+	max-height: 265px;
+	align-self: center;
 }

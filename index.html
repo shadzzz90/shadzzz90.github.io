@@ -29,17 +29,19 @@
         <div>
 			<div class="header bg-purple-75">
 				<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-				
-                    <li class="smooth-menu"><a class="tab-link active" onclick="openTab(event, 'about')">About Me</a></li>
-                    <li class="smooth-menu"><a class="tab-link" onclick="openTab(event, 'skills')">Skills</a></li>
-                    <li class="smooth-menu"><a class="tab-link" onclick="openTab(event, 'experience')">Experience</a></li>                        
-                    <li class="smooth-menu"><a class="tab-link" onclick="openTab(event, 'education')">Education</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#skills">Skills</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#researchExperience">Experience</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#projects">Projects</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#education">Education</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#publications">Publications</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#awards">Awards</a></li>
+					<li class="smooth-menu"><a class="tab-link" href="#contact">Contact</a></li>
                 </ul>
 			</div>
 			<div class="wrapper">
 				<div class="sidebar">
-					<div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
-						<img class="w-100 img-fluid mb-4" src="img/profile.jpeg" alt="Image">
+					<div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center scrollu">
+						<img class="img-fluid mb-4 profile-pic" src="img/profile.jpeg" alt="Image">
 						<h1 class="mt-2">Shadab Anwar Shaikh</h1>
 						<div class="mb-4" style="height: 22px;">
 							<h4 class="typed-text-output d-inline-block text-body"></h4>
@@ -106,55 +108,8 @@
 							</div>
 						</div> -->
 						<!-- Projects End -->	
-						<!-- Education Start -->	
-						<div class="container bg-white py-5">
-							<div class="row px-3">
-								<div class="col-12">
-									<h2 class="title position-relative pb-2 mb-4">Education</h2>
-								</div>
-								<div class="col-12">								
-									<div class="exp-description-body">
-										<div class="exp">
-											<span class="exp-header-title"> University of North Carolina at Charlotte </span>
-											<div class="divider"></div>
-											<div class="experience-duration">Charlotte, NC</div>
-										</div>
-										<div class="exp">
-											<span> Ph. D. in  Mechanical Engineering, GPA: 3.92/4.0 </span>
-											<div class="divider"></div>
-											<div>Expected Dec 2023</div>
-										</div>
-									</div>
-									<div class="exp-description-body">
-										<div class="exp">
-											<span class="exp-header-title"> University of Mumbai</span>
-											<div class="divider"></div>
-											<div class="experience-duration">Mumbai, India</div>
-										</div>
-										<div class="exp">
-											<span>Master of Engineering, Mechanical Engineering, GPA: 3.62/4.0 </span>
-											<div class="divider"></div>
-											<div>May 2016</div>
-										</div>
-									</div>
-									<!-- <div class="exp-description-body">
-										<div class="exp">
-											<span class="exp-header-title"> University of Mumbai</span>
-											<div class="divider"></div>
-											<div class="experience-duration">Mumbai, India</div>
-										</div>
-										<div class="exp">
-											<span>Bachelor of Engineering, Mechanical Engineering; GPA: 3.25/4.0</span>
-											<div class="divider"></div>
-											<div>May 2011</div>
-										</div>
-									</div> -->
-								</div>
-							</div>
-						</div>
-						<!-- Education End -->
 						<!-- Technical Skills Start -->
-						<div class="container bg-white py-5">
+						<div class="container bg-white py-5" id="skills">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Technical Skills</h2>
@@ -363,7 +318,7 @@
 						
 						
 						<!-- Research Experience Start -->
-						<div class="container bg-white py-5">
+						<div class="container bg-white py-5" id="researchExperience">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Research Experience</h2>
@@ -383,7 +338,7 @@
 										<div>
 											<div class="exp-description">
 												<div class="exp-description-title">
-													<span class="exp-header-title"> Project: </span><span class="exp-header"> “Development of Efficient Process for Manufacturing of Thermoplastic Composites with Tailored Properties”</span> funded by <span class="exp-header">HPC4EnergyInnovation </span> initiative of <span class="exp-header"> Department of Energy </span>
+													<span class="exp-header-subtitle"> Project: </span><span class="exp-header"> “Development of Efficient Process for Manufacturing of Thermoplastic Composites with Tailored Properties”</span> funded by <span class="exp-header">HPC4EnergyInnovation </span> initiative of <span class="exp-header"> Department of Energy </span>
 												</div>
 												<div class="exp-description-body">
 													<ul class="exp-list">
@@ -400,7 +355,7 @@
 										<div>
 											<div class="exp-description">
 												<div class="exp-description-title">
-													<span class="exp-header-title"> Project: </span><span class="exp-header">“Lightweight Metals Core Program”</span> funded by <span class="exp-header">Department of Energy</span>
+													<span class="exp-header-subtitle"> Project: </span><span class="exp-header">“Lightweight Metals Core Program”</span> funded by <span class="exp-header">Department of Energy</span>
 												</div>
 												<div class="exp-description-body">
 													<ul class="exp-list">
@@ -425,7 +380,7 @@
 										<div>
 											<div class="exp-description">
 												<div class="exp-description-title">
-													<span class="exp-header-title"> Dissertation: </span><span class="exp-header">Machine Learning-Based Approaches for Accelerating Design Space Exploration of Electric Vehicle Battery Enclosures and Solving Inverse Problems in Engineering Design</span>
+													<span class="exp-header-subtitle"> Dissertation: </span><span class="exp-header">Machine Learning-Based Approaches for Accelerating Design Space Exploration of Electric Vehicle Battery Enclosures and Solving Inverse Problems in Engineering Design</span>
 												</div>
 												<div class="exp-description-body">
 													<ul class="exp-list">
@@ -455,7 +410,7 @@
 										<div>
 											<div class="exp-description">
 												<div class="exp-description-title">
-													<span class="exp-header-title"> Thesis: </span><span class="exp-header">Resource-Constrained Project Scheduling (RCPS) Using Metaheuristic Optimization Techniques</span>
+													<span class="exp-header-subtitle"> Thesis: </span><span class="exp-header">Resource-Constrained Project Scheduling (RCPS) Using Metaheuristic Optimization Techniques</span>
 												</div>
 												<div class="exp-description-body">
 													<ul class="exp-list">
@@ -532,7 +487,7 @@
 						</div>
 						<!-- Teaching Experience End -->			
 						<!-- Other Projects Start -->	
-						<div class="container bg-white py-5">
+						<div class="container bg-white py-5" id="projects">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Projects</h2>
@@ -600,8 +555,55 @@
 							</div>
 						</div>
 						<!-- Other Projects End -->	
+						<!-- Education Start -->	
+						<div class="container bg-white py-5" id="education">
+							<div class="row px-3">
+								<div class="col-12">
+									<h2 class="title position-relative pb-2 mb-4">Education</h2>
+								</div>
+								<div class="col-12">								
+									<div class="exp-description-body">
+										<div class="exp">
+											<span class="exp-header-title"> University of North Carolina at Charlotte </span>
+											<div class="divider"></div>
+											<div class="experience-duration">Charlotte, NC</div>
+										</div>
+										<div class="exp">
+											<span> Ph. D. in  Mechanical Engineering, GPA: 3.92/4.0 </span>
+											<div class="divider"></div>
+											<div>Expected Dec 2023</div>
+										</div>
+									</div>
+									<div class="exp-description-body">
+										<div class="exp">
+											<span class="exp-header-title"> University of Mumbai</span>
+											<div class="divider"></div>
+											<div class="experience-duration">Mumbai, India</div>
+										</div>
+										<div class="exp">
+											<span>Master of Engineering, Mechanical Engineering, GPA: 3.62/4.0 </span>
+											<div class="divider"></div>
+											<div>May 2016</div>
+										</div>
+									</div>
+									<div class="exp-description-body">
+										<div class="exp">
+											<span class="exp-header-title"> University of Mumbai</span>
+											<div class="divider"></div>
+											<div class="experience-duration">Mumbai, India</div>
+										</div>
+										<div class="exp">
+											<span>Bachelor of Engineering, Mechanical Engineering; GPA: 3.25/4.0</span>
+											<div class="divider"></div>
+											<div>May 2011</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Education End -->
 						<!-- Publications Start -->	
-						<div class="container bg-white py-5">
+						<div class="container bg-white py-5" id="publications">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Publications</h2>
@@ -631,7 +633,7 @@
 						</div>
 						<!-- Presentations End -->
 						<!-- Awards & Achievements Start -->	
-						<div class="container bg-white py-5">
+						<div class="container bg-white py-5" id="awards">
 							<div class="row px-3">
 								<div class="col-12">
 									<h2 class="title position-relative pb-2 mb-4">Awards & Achievements</h2>
@@ -835,22 +837,6 @@
 				moreText.style.display = "inline";
 			  }
 			}			
-		</script>
-		<script>
-			function openTab(evt, tabName) {
-			debugger
-			  var i, tabcontent, tablinks;
-			  tabcontent = document.getElementsByClassName("title");
-			  for (i = 0; i < tabcontent.length; i++) {
-				tabcontent[i].style.display = "none";
-			  }
-			  tablinks = document.getElementsByClassName("tab-link");
-			  for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			  }
-			  document.getElementById(tabName).style.display = "block";
-			  evt.currentTarget.className += " active";
-			}
-		</script>
+		</script>		
     </body>
 </html>
